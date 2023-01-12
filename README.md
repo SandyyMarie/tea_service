@@ -17,7 +17,7 @@ A Rails API for a Tea Subscription Service based on [this project](https://mod4.
 ## Architecture and Design
 
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/SandyyMarie/tea_service/blob/main/tea_service_db.png?raw=true" />
 </p>
 
 ## Subscription End Points:
