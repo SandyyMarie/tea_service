@@ -26,4 +26,22 @@ Try to limit your total time to approximately 8 hours on this project. Prioritiz
 
 Note: The below data outlines are meant to be a guide for data details you may use in the application. If you want to change or include more information please do so. Using fake data in your application is okay.
 
+Tea
+- Title
+- Description
+- Temperature
+- Brew Time
+
+Customer
+- First Name
+- Last Name
+- Email
+- Address
+
+Subscription
+- Title
+- Price
+- Status
+- Frequency
+
 Based on [this project](https://mod4.turing.edu/projects/take_home/take_home_be)
