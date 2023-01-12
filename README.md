@@ -1,5 +1,3 @@
-# Take Home Project
-
 # Take-Home Back End Prompt
 
 ## Tea Subscription Service
