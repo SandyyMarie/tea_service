@@ -7,6 +7,11 @@ class SubscriptionsController < ApplicationController
     # if new_sub.save
 
     # end
+    render json: SubscriptionSerializer.new(new_sub)
+  end
+
+  def index
+    render json: SubscriptionSerializer.new(Subscription.where(customer_id: params[:customer_id]))
   end
 
   private
