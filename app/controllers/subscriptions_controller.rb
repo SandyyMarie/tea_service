@@ -14,6 +14,11 @@ class SubscriptionsController < ApplicationController
     render json: SubscriptionSerializer.new(Subscription.where(customer_id: params[:customer_id]))
   end
 
+  def update
+    sub = Subscription.update(params[:id], new_params)
+    render json: SubscriptionSerializer.new(sub)
+  end
+
   private
 
   def new_params
