@@ -20,6 +20,10 @@ A Rails API for a Tea Subscription Service based on [this project](https://mod4.
   <img src="https://github.com/SandyyMarie/tea_service/blob/main/tea_service_db.png?raw=true" />
 </p>
 
+*clarification points*
+* Subscriptions table - `frequency`: integer of amount of days between each delivery
+* Teas table - `temperature`: Integer in Fahrenheit, `brew_time`: Integer in Minutes
+
 ## Subscription End Points:
 
 ### View all of a given Customers Subscriptions
